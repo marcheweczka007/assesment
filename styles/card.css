@@ -1,0 +1,26 @@
+/*Card*/
+.card {
+   box-shadow: 2px 3px 8px rgba(34, 34, 34, 0.294);
+   margin-bottom: 4rem;
+   padding: 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.card img {
+   max-height: 170px;
+   object-fit: cover;
+   width: 100%;
+}
+
+/*Video*/
+.video {
+   display: none;
+}
+
+@media screen and (min-width: 720px) {
+   .video {
+      display: block;
+   }
+}

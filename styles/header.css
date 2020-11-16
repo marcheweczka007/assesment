@@ -14,6 +14,10 @@
 
 }
 
+#nav ul li a.active {
+   color: var(--dark-green);
+}
+
 
 @media screen and (min-width: 720px) {
  #nav {
