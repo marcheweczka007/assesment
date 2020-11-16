@@ -8,10 +8,11 @@
    --grey: #28262d66;
    --font-size-large: 2rem;
    --font-size-base: 1.2rem;
-   --font-size-small: 0.75rem;
+   --font-size-small: 1rem;
    --bg-one: white;
    --bg-two: lightgoldenrodyellow;
    --bg-three: blanchedalmond;
+   --text-secondary: #a8a8a8;
 }
 
 html, body {
@@ -140,10 +141,6 @@ section {
    h1,
    h3 {
       text-align: left;
-   }
-
-   .two-columns-flex>div:first-of-type {
-      padding-right: 5rem;
    }
 
    .center {
