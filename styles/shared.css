@@ -19,6 +19,10 @@ html, body {
    font-size: var(--font-size-base);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
    margin: 0;
    padding: 0;
