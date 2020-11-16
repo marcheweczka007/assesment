@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="styles/header.css">
    <link rel="stylesheet" href="styles/tables.css">
    <link rel="stylesheet" href="styles/forms.css">
+   <link rel="stylesheet" href="styles/tile.css">
    <link rel="stylesheet" href="styles/landing.css">
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&display=swap"
       rel="stylesheet">
@@ -45,95 +46,110 @@
          </div>
       </section>
 
-      <section class="content">
-         <div class="three-columns-flex about-us">
-            <div>
-               <h4>Delicious</h4>
-               <img class="padding-bottom" src="icons/juice.svg" height="50px" width="50px" alt="juice">
-               <p>We are on an inspiring mission to show people that vegan food is not just 'grass', oh no, it's so
-                  so so much more! What you can make from plants is actually amazing and the possibilities are
-                  limitless! </p>
-            </div>
-            <div>
-               <h4>Local</h4>
-               <img class="padding-bottom" src="icons/delivery.svg" height="50px" width="50px" alt="delivery">
-               <p>Good food is so important when it comes to good health and happiness, and that is why here at Seeds
-                  for the Soul we only cook from plants. Many of our
-                  ingredients are organic and locally sourced. </p>
-            </div>
-            <div>
-               <h4>100% recycled </h4>
-               <img class="padding-bottom" src="icons/recycle.svg" height="50px" width="50px" alt="recycle">
-               <p>We are on a mission to try and reduce the pollution of our beloved planet so that the future
-                  generations can still enjoy it and see the beauty of our home. </p>
+      <nav class="content page-nav">
+         <a href="#why-dine-with-us">Why dine with us</a>
+         <a href="#our-story">Our story</a>
+         <a href="#opening-times">Opening times</a>
+         <a href="#map">Where to find us</a>
+         <a href="#contact-us">Contact us</a>
+      </nav>
+
+
+      <section class="bg grey" id="why-dine-with-us">
+         <div class="content">
+            <h3>Why dine with us</h3>
+            <div class="three-columns-flex about-us">
+               <div class="tile">
+                  <h4>Delicious</h4>
+                  <img class="padding-bottom" src="icons/juice.svg" alt="juice">
+                  <p>We are on an inspiring mission to show people that vegan food is not just 'grass', oh no, it's so
+                     so so much more! What you can make from plants is actually amazing and the possibilities are
+                     limitless! </p>
+               </div>
+               <div class="tile">
+                  <h4>Local</h4>
+                  <img class="padding-bottom" src="icons/delivery.svg" alt="delivery">
+                  <p>Good food is so important when it comes to good health and happiness, and that is why here at Seeds
+                     for the Soul we only cook from plants. Many of our
+                     ingredients are organic and locally sourced. </p>
+               </div>
+               <div class="tile">
+                  <h4>100% recycled </h4>
+                  <img class="padding-bottom" src="icons/recycle.svg" alt="recycle">
+                  <p>We are on a mission to try and reduce the pollution of our beloved planet so that the future
+                     generations can still enjoy it and see the beauty of our home. </p>
+               </div>
             </div>
          </div>
       </section>
 
-      <section class="content two-columns-flex">
-         <div>
+      <section class="content" id="our-story">
+         <div class="two-columns-flex">
+            <div>
             <h3 class="video">Our story</h3>
             <p>See why we decided to open Seeds for the Soul and what is our mission.</p>
          </div>
-         
+
          <div class="video padding-bottom">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/68zh6S93VZU" frameborder="0"
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/68zh6S93VZU" frameborder="0"
                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                allowfullscreen></iframe>
          </div>
+         </div>
       </section>
 
-      <section class="background">
-         <div class="two-columns-flex content ">
-            <div>
-               <span class="location light ">
-                  <h4>Opening times</h4>
-                  <table class="light">
-                     <tbody>
-                        <tr>
-                           <td>Monday</td>
-                           <td>10am - 6pm</td>
-                        </tr>
-                        <tr>
-                           <td>Tuesday</td>
-                           <td>10am - 6pm</td>
-                        </tr>
-                        <tr>
-                           <td>Wednesday</td>
-                           <td>10am - 6pm</td>
-                        </tr>
-                        <tr>
-                           <td>Thursday</td>
-                           <td>10am - 6pm</td>
-                        </tr>
-                        <tr>
-                           <td>Friday</td>
-                           <td>10am - 6pm</td>
-                        </tr>
-                        <tr>
-                           <td>Weekend</td>
-                           <td>11am - 6pm</td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </span>
-            </div>
-            <div id="map-wrapper" class="light">
-               <h4>Where to find us:</h4>
-               <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.784950305821!2d-3.2117363839035837!3d55.935765885333076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c70bb306345f%3A0xe0981fc4040e8c2b!2sSeeds%20For%20The%20Soul%20Ltd!5e0!3m2!1sen!2suk!4v1604153655416!5m2!1sen!2suk"
-                  width="100%" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                  tabindex="0">
-               </iframe>
+      <section class="bg green" id="opening-times">
+         <div class="content">
+            <h3>Opening times</h3>
+            <div class="two-columns-flex">
+               <div></div>
+               <table class="light">
+                  <tbody>
+                     <tr>
+                        <td>Monday</td>
+                        <td>10am - 6pm</td>
+                     </tr>
+                     <tr>
+                        <td>Tuesday</td>
+                        <td>10am - 6pm</td>
+                     </tr>
+                     <tr>
+                        <td>Wednesday</td>
+                        <td>10am - 6pm</td>
+                     </tr>
+                     <tr>
+                        <td>Thursday</td>
+                        <td>10am - 6pm</td>
+                     </tr>
+                     <tr>
+                        <td>Friday</td>
+                        <td>10am - 6pm</td>
+                     </tr>
+                     <tr>
+                        <td>Weekend</td>
+                        <td>11am - 6pm</td>
+                     </tr>
+                  </tbody>
+               </table>
             </div>
          </div>
       </section>
 
-      <section class="content">
+      <section class="content" id="map">
+         <h3>Where to find us</h3>
+         <div>
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.784950305821!2d-3.2117363839035837!3d55.935765885333076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c70bb306345f%3A0xe0981fc4040e8c2b!2sSeeds%20For%20The%20Soul%20Ltd!5e0!3m2!1sen!2suk!4v1604153655416!5m2!1sen!2suk"
+               width="100%" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+               tabindex="0">
+            </iframe>
+         </div>
+      </section>
+
+      <section class="content" id="contact-us">
+         <h3>Contact us</h3>
          <div class="two-columns-flex">
-            <div>
-               <h4>What to know all the news from vegan world? </h4>
-            </div>
+            <div></div>
             <div>
                <form>
                   <div class="form-wrapper">
@@ -153,7 +169,7 @@
                      <label for="confes">Yes, I would like to recieve vegan news. </label>
                   </div>
                   <div class="submit">
-                     <input type="submit" value="submit">
+                     <input type="submit" value="Submit">
                   </div>
                </form>
             </div>

@@ -1,0 +1,30 @@
+.tile {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 1rem;
+}
+
+.tile:nth-child(1) {
+   background-color: var(--bg-one);
+}
+
+.tile:nth-child(2) {
+   background-color: var(--bg-two);
+}
+
+.tile:nth-child(3) {
+   background-color: var(--bg-three);
+}
+
+.tile img {
+   width: 100px;
+   height: auto;
+   padding: 0 0 2rem;
+
+}
+
+.tile h4 {
+
+    padding: 2rem 0;
+}

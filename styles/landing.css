@@ -16,6 +16,18 @@
    width: 100%;
 }
 
+.page-nav {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   background-color: white;
+   padding: 2rem;
+}
+
 @media screen and (min-width: 720px) {
 
    #hero {
@@ -42,13 +54,5 @@
       width: 50%;
 
    }
-
-   /* .heightSection {
-      height: auto;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-   } */
-
 
 }

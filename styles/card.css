@@ -11,7 +11,7 @@
 }
 
 .card img {
-   max-height: 270px;
+   height: 270px;
    object-fit: cover;
    width: 100%;
 }

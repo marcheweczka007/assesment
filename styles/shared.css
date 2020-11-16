@@ -1,11 +1,21 @@
 :root {
    --spacing: 1rem;
-   --dark-green: #5F8F5E;
+   --primary-color: #5F8F5E;
    --light-green: #A6E0A5;
    --button-red: rgb(230, 67, 67);
    --font-background: rgba(0, 0, 0, 0.2);
    --border-color: #8dc58d;
-   --grey: #a7a8a7;
+   --grey: #28262d66;
+   --font-size-large: 2rem;
+   --font-size-base: 1.2rem;
+   --font-size-small: 0.75rem;
+   --bg-one: white;
+   --bg-two: lightgoldenrodyellow;
+   --bg-three: blanchedalmond;
+}
+
+html, body {
+   font-size: var(--font-size-base);
 }
 
 * {
@@ -16,7 +26,7 @@
 }
 
 a {
-   color: var(--dark-green);
+   color: var(--primary-color);
    text-decoration: none;
 }
 
@@ -28,34 +38,19 @@ footer {
 
 h1 {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: 82px;
-   color: var(--dark-green);
-}
-
-h2 {
-   padding: 2rem var(--spacing) 1rem;
+   font-size: var(--font-size-large);
+   color: var(--primary-color);
 }
 
 h3 {
-   font-size: 38px;
-   font-weight: 200;
-   padding: 1rem 0 3rem 0;
-   color: var(--grey);
-}
-
-h4 {
-   font-size: 30px;
-   padding: 3rem 0;
-   font-weight: 200;
-   color: var(--grey);
+   padding: 2rem 0;
+   text-align: center;
 }
 
 p {
-   font-size: 18px;
    margin-bottom: 2rem;
    line-height: 2rem;
    color: rgb(71, 70, 70);
-   padding-bottom: 2rem;
 }
 
 /* top bar` */
@@ -92,9 +87,16 @@ section {
    padding-bottom: 1.3rem;
 }
 
-.background {
+.bg {
    width: 100vw;
-   background-color: var(--dark-green);
+}
+
+.bg.green {
+   background-color: var(--primary-color);
+}
+
+.bg.grey {
+   background-color: #efefef;
 }
 
 .light {
@@ -108,31 +110,29 @@ section {
 /* UI elements */
 .btn {
    text-decoration: none;
-   font-size: 18px;
    background-color: transparent;
-   border: 3px solid var(--dark-green);
+   border: 3px solid var(--primary-color);
    padding: .8em;
    font-weight: 600;
    border-radius: 2px;
+   color: var(--primary-color);
    /* box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.418); */
    margin: var(--spacing) 0;
 }
 
-.btn a {
-   color: rgb(27, 27, 27);
-   background: transparent;
-   text-decoration: none;
-}
-
 .btn:hover {
-   background-color: var(--dark-green);
+   background-color: var(--primary-color);
    cursor: pointer;
    cursor: hand;
 }
 
+.btn:hover a {
+   color: white;
+}
+
 .footer {
    color: white;
-   background-color: var(--dark-green);
+   background-color: var(--primary-color);
 }
 
 @media screen and (min-width: 720px) {
