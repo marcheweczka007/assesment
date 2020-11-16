@@ -5,6 +5,7 @@
    --button-red: rgb(230, 67, 67);
    --font-background: rgba(0, 0, 0, 0.2);
    --border-color: #8dc58d;
+   --grey: #a7a8a7;
 }
 
 * {
@@ -26,7 +27,6 @@ footer {
 }
 
 h1 {
-
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-size: 82px;
    color: var(--dark-green);
@@ -39,13 +39,15 @@ h2 {
 h3 {
    font-size: 38px;
    font-weight: 200;
-   padding: 3rem 0;
+   padding: 1rem 0 3rem 0;
+   color: var(--grey);
 }
 
 h4 {
    font-size: 30px;
    padding: 3rem 0;
    font-weight: 200;
+   color: var(--grey);
 }
 
 p {
@@ -66,15 +68,12 @@ p {
 
 /* padding */
 
-.content {
-   padding: 2rem 0;
+section {
+   padding: 4rem 0;
 }
 
-.two-columns-flex:first-of-type {
-   padding-right: 2rem;
-}
-
-.two-columns-flex > div, .three-columns-flex > div {
+.two-columns-flex>div,
+.three-columns-flex>div {
    padding-bottom: 2rem;
 }
 
@@ -132,7 +131,6 @@ p {
 }
 
 .footer {
-   margin-top: 3rem;
    color: white;
    background-color: var(--dark-green);
 }
@@ -144,15 +142,16 @@ p {
       text-align: left;
    }
 
-   .two-columns-flex > div:first-of-type {
+   .two-columns-flex>div:first-of-type {
       padding-right: 5rem;
    }
 
-   .three-columns-flex > div {
+   .three-columns-flex>div {
       margin-right: 4rem;
    }
+
    .center {
-   text-align: left;
-   margin: auto 0;
-}
+      text-align: left;
+      margin: auto 0;
+   }
 }

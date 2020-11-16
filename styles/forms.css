@@ -33,8 +33,17 @@ input[type="datetime-local"] {
 
 .submit {
    display: flex;
-   justify-content: center;
+   justify-content: flex-end;
    margin-top: 3rem;
+}
+
+.checkbox-wrapper {
+   display: flex;
+   align-items: baseline;
+}
+
+.checkbox-wrapper label {
+   margin-left: 10px;
 }
 
 ::placeholder {
