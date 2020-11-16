@@ -1,0 +1,54 @@
+#hero {
+   display: flex;
+   justify-content: center;
+   flex: 1;
+   flex-direction: column;
+   justify-content: center;
+   text-align: left;
+}
+
+#map-wrapper {
+   width: 100%;
+}
+
+#hero img {
+   object-fit: cover;
+   width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+
+   #hero {
+      text-align: left;
+   }
+
+   .about-us>div {
+      justify-self: center;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+
+
+   #hero {
+      height: auto;
+      flex-direction: row;
+      justify-content: space-around;
+   }
+
+
+
+   #map-wrapper {
+      width: 50%;
+
+   }
+
+   /* .heightSection {
+      height: auto;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+   } */
+
+
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="68px" viewBox="0 0 108 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo1</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A6E0A5" offset="0%"></stop>
+            <stop stop-color="#5F8F5E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#A6E0A5" offset="0%"></stop>
+            <stop stop-color="#5F8F5E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-319.000000, -81.000000)">
+            <g id="logo1" transform="translate(316.500000, 84.579816)">
+                <text id="Seeds-for-Soul" font-family="Lobster-Regular, Lobster" font-size="14" font-weight="normal" letter-spacing="0.816666667" fill="#101010">
+                    <tspan x="3.069" y="60.4201842">Seeds for the soul</tspan>
+                </text>
+                <path d="M36.9783938,48.0019735 C50.6845934,34.2467131 50.3265521,18.7307454 35.9042696,1.45407023 C21.0066026,20.8126018 21.364644,36.3285696 36.9783938,48.0019735 Z" id="Path-2" stroke="#080808" stroke-width="3" fill="url(#linearGradient-1)" transform="translate(35.994798, 24.728022) rotate(-44.000000) translate(-35.994798, -24.728022) "></path>
+                <path d="M71.9783938,48.0019735 C85.6845934,34.2467131 85.3265521,18.7307454 70.9042696,1.45407023 C56.0066026,20.8126018 56.364644,36.3285696 71.9783938,48.0019735 Z" id="Path-2-Copy" stroke="#080808" stroke-width="3" fill="url(#linearGradient-1)" transform="translate(70.994798, 24.728022) scale(-1, 1) rotate(-44.000000) translate(-70.994798, -24.728022) "></path>
+                <path d="M43.2628052,16.0785152 C45.3077008,10.1589552 47.0279197,6.21134572 48.423462,4.23568692 C49.3903765,2.86683337 50.9857855,1.45493774 53.2096892,2.29150032e-13 C52.4591924,2.47794471 52.6257998,4.51280744 53.7095114,6.10458818 C55.0583617,8.08581083 58.5405971,11.4104532 64.1562176,16.0785152 L54.5691149,27.5766249 L43.2628052,16.0785152 Z" id="Path-3" stroke="#080808" stroke-width="3" fill="url(#linearGradient-2)"></path>
+                <line x1="56.3616923" y1="38.8573049" x2="72.9255969" y2="22.4848489" id="Path" stroke="#000000" stroke-width="3" stroke-linecap="round"></line>
+                <line x1="35.3616923" y1="38.8573049" x2="51.9255969" y2="22.4848489" id="Path-Copy" stroke="#000000" stroke-width="3" stroke-linecap="round" transform="translate(43.643645, 30.671077) scale(-1, 1) translate(-43.643645, -30.671077) "></line>
+                <line x1="53.7095114" y1="17.0540179" x2="53.7095114" y2="34.6710769" id="Path-4" stroke="#000000" stroke-width="3" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

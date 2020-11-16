@@ -1,0 +1,44 @@
+#nav ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+}
+
+#nav ul li a {
+   font-size: 17px;
+   display: block;
+   padding: .5em;
+   color: black;
+
+}
+
+
+@media screen and (min-width: 720px) {
+ #nav {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   #nav ul {
+      padding-top: 1em;
+
+   }
+
+   #nav li a {
+      font-size: 30px;
+      font-weight: 900;
+
+   }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+   #nav a:hover {
+      color: rgba(0, 118, 110, 0.523);
+      
+   }
+
+}

@@ -1,0 +1,94 @@
+/* forms */
+
+label {
+   display: block;
+   width: 100%;
+}
+
+.input-form {
+   font-size: 28px;
+   border: none;
+   border-bottom: 2px solid var(--dark-green);
+   width: 100%;
+   padding: .3rem;
+   margin: .5rem;
+}
+
+input[type="submit"] {
+   color: white;
+   padding: 1rem;
+   border: none;
+   font-size: 26px;
+   background-color: var(--dark-green);
+   display: flex;
+   justify-content: center;
+}
+input[type="datetime-local"] {
+   width: 100%;
+   border: none;
+   border-bottom: 3px solid var(--border-color);
+   font-size: 20px;
+   
+}
+
+.submit {
+   display: flex;
+   justify-content: center;
+   margin-top: 3rem;
+}
+
+::placeholder {
+   color: rgba(41, 45, 45, 0.269);
+}
+
+textarea {
+   width: -webkit-fill-available;
+   border: 3px solid var(--border-color);
+   padding: .2rem;
+   margin-bottom: 2rem;
+}
+
+label {
+   display: block;
+   font-size: 16px;
+   color: #9b9b9b;
+   font-weight: 500;
+   padding-bottom: var(--gap);
+   margin: 1.2rem 0 1.6rem 0;
+}
+
+.form-control {
+   border: none;
+   background-color: transparent;
+   border-bottom: 3px solid var(--border-color);
+   display: block;
+   width: -webkit-fill-available;
+   height: 2.6rem;
+   font-size: 20px;
+}
+
+.form-control:hover {
+   background-color: rgba(128, 128, 128, 0.1);
+}
+
+/*Card*/
+.card {
+   box-shadow: 2px 3px 8px rgba(34, 34, 34, 0.294);
+   margin-bottom: 4rem;
+}
+.container {
+   margin: 2rem;
+}
+
+/*Video*/
+
+   .video {
+      display: none;
+   }
+
+@media screen and (min-width: 720px) {
+   .video {
+      display: block;
+   }
+}
+
