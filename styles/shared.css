@@ -91,10 +91,6 @@ section {
    justify-content: center;
 }
 
-.padding-bottom {
-   padding-bottom: 1.3rem;
-}
-
 .bg {
    width: 100vw;
 }
@@ -128,7 +124,7 @@ section {
    margin: var(--spacing) 0;
 }
 
-.btn:hover {
+a:hover .btn, .btn:hover, .btn:hover a {
    background-color: var(--primary-color);
    cursor: pointer;
    cursor: hand;

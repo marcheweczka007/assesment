@@ -23,14 +23,3 @@
    object-fit: cover;
    width: 100%;
 }
-
-/*Video*/
-.video {
-   display: none;
-}
-
-@media screen and (min-width: 720px) {
-   .video {
-      display: block;
-   }
-}

@@ -15,7 +15,6 @@
    font-size: smaller;
 }
 
-
 .tile:nth-child(1) {
    background-color: var(--bg-one);
 }
@@ -33,7 +32,7 @@
    height: auto;
    padding: 0 0 2rem;
    justify-content: center;
-
+   padding-bottom: 1.3rem;
 }
 
 .tile h4 {
