@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="56px" viewBox="0 0 90 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A6E0A5" offset="0%"></stop>
+            <stop stop-color="#5F8F5E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#A6E0A5" offset="0%"></stop>
+            <stop stop-color="#5F8F5E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(3.000000, 3.000000)" stroke-width="3">
+            <path d="M25.4783936,48.5817893 C39.1845932,34.8265289 38.8265519,19.3105612 24.4042694,2.03388599 C9.5066024,21.3924176 9.8646438,36.9083854 25.4783936,48.5817893 Z" id="Path-2" stroke="#080808" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(24.494798, 25.307838) rotate(-44.000000) translate(-24.494798, -25.307838) "></path>
+            <path d="M60.4783932,48.5817893 C74.1845928,34.8265289 73.8265515,19.3105612 59.404269,2.03388599 C44.506602,21.3924176 44.8646434,36.9083854 60.4783932,48.5817893 Z" id="Path-2-Copy" stroke="#080808" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(59.494798, 25.307838) scale(-1, 1) rotate(-44.000000) translate(-59.494798, -25.307838) "></path>
+            <path d="M31.7628052,16.6583312 C33.8077008,10.7387712 35.5279197,6.79116172 36.923462,4.81550292 C37.8903765,3.44664937 39.4857855,2.03475374 41.7096892,0.579816 C40.9591924,3.05776071 41.1257998,5.09262344 42.2095114,6.68440418 C43.5583617,8.66562683 47.0405971,11.9902692 52.6562176,16.6583312 L43.0691149,28.1564409 L31.7628052,16.6583312 Z" id="Path-3" stroke="#080808" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+            <line x1="44.8616923" y1="39.4371209" x2="61.4255969" y2="23.0646649" id="Path" stroke="#000000" stroke-linecap="round"></line>
+            <line x1="23.8616931" y1="39.4371209" x2="40.4255977" y2="23.0646649" id="Path-Copy" stroke="#000000" stroke-linecap="round" transform="translate(32.143645, 31.250893) scale(-1, 1) translate(-32.143645, -31.250893) "></line>
+            <line x1="42.2095114" y1="17.6338339" x2="42.2095114" y2="35.2508929" id="Path-4" stroke="#000000" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>

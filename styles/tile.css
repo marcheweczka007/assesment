@@ -1,8 +1,10 @@
 .tile {
    display: flex;
    flex-direction: column;
-   align-items: flex-start;
+   align-items: center;
+   /* align-items: flex-start; */
    padding: 1rem;
+   /* justify-content: center; */
 }
 
 .tile:nth-child(1) {
@@ -21,6 +23,7 @@
    width: 100px;
    height: auto;
    padding: 0 0 2rem;
+   justify-content: center;
 
 }
 
