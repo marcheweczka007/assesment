@@ -10,12 +10,12 @@
 
 .card p {
    text-align: left;
-   font-size: var(--font-size-base);
+   font-size: var(--font-size-small);
    color: rgba(0,0,0,.6);
 }
 
 .card span {
-   font-size: var(--font-size-small);
+   font-size: var(--font-size-base);
    color: var(--text-secondary);
 }
 
