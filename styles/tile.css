@@ -12,11 +12,11 @@
 }
 
 .tile:nth-child(2) {
-   background-color: var(--bg-two);
+   background-color: var(--bg-one);
 }
 
 .tile:nth-child(3) {
-   background-color: var(--bg-three);
+   background-color: var(--bg-one);
 }
 
 .tile img {
