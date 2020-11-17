@@ -26,8 +26,10 @@
    border-bottom-right-radius: 1rem;
    border-bottom-left-radius: 1rem;
    box-shadow: 0 15px 12px rgba(34, 34, 34, 0.02); 
-   padding: 2rem;
+   padding: 2rem 0;
    z-index: 10;
+         width: 80%;
+      margin: 0 auto;
 }
 
 .page-nav a {
@@ -62,19 +64,7 @@
    .about-us>div {
       justify-self: center;
    }
-   .page-nav {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      position: sticky;
-      width: 80%;
-      margin: 0 auto;
-   }
-
-   .page-nav .btn {
-      margin-left: 2rem;
-   }
+   
 }
 
 @media screen and (min-width: 1024px) {
@@ -86,11 +76,29 @@
       justify-content: space-around;
    }
 
+ 
 
 
    #map-wrapper {
       width: 50%;
-
    }
 
 }
+
+@media screen and (min-width: 1280px) {
+
+     .page-nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: sticky;
+      white-space: nowrap;
+   }
+
+   .page-nav .btn {
+      margin-left: 2rem;
+   }
+
+}
+
