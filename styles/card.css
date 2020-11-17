@@ -9,6 +9,7 @@
 }
 
 .card p {
+   text-align: left;
    font-size: var(--font-size-base);
    color: rgba(0,0,0,.6);
 }
