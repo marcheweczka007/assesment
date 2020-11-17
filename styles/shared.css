@@ -1,5 +1,5 @@
 :root {
-   --spacing: 1rem;
+   --spacing: 1em;
    --primary-color: #5F8F5E;
    --light-green: #A6E0A5;
    --button-red: rgb(230, 67, 67);
@@ -35,12 +35,6 @@ a {
    color: var(--primary-color);
    text-decoration: none;
    font-size: var(--font-size-small);
-}
-
-
-footer {
-   margin: 0;
-   padding: 20px;
 }
 
 h1 {
@@ -134,9 +128,21 @@ a:hover .btn  {
    color: white;
 }
 
-.footer {
-   color: white;
+footer {
    background-color: var(--primary-color);
+   padding: 2rem 0 0 0;
+   margin: 0;
+}
+
+footer p, footer h4, footer a {
+    color: white;
+}
+
+#copyright {
+   font-size: smaller;
+   text-align: center;
+   color: white;
+   padding-bottom: 2rem;
 }
 
 @media screen and (min-width: 720px) {
