@@ -1,6 +1,6 @@
 /*Card*/
 .card {
-   background-color: var(--bg-t);
+   background-color: var(--bg-two);
    padding: 2rem;
    display: flex;
    flex-direction: column;
