@@ -1,15 +1,17 @@
-#hero {
-   display: flex;
-   justify-content: center;
-   flex: 1;
-   flex-direction: column;
-   justify-content: center;
-   text-align: left;
-}
-
 #map-wrapper {
    width: 100%;
 }
+
+@media screen and (max-width: 720px) {
+   #hero .two-columns-flex {
+      gap: 0;
+   }
+
+   #hero .two-columns-flex>div {
+      padding-bottom: 0;
+   }
+}
+
 
 #hero img {
    object-fit: cover;
