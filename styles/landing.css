@@ -41,12 +41,12 @@
    margin-left: 0;
 }
 
-
-
-@media screen and (min-width: 720px) {
    #video {
       display: block;
    }
+
+@media screen and (min-width: 720px) {
+
 }
 
 #map-wrapper {
