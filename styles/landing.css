@@ -41,9 +41,24 @@
    margin-left: 0;
 }
 
-   #video {
+   #video iframe{
       display: block;
+      width: 100%;
    }
+iframe {
+   width: 100%;
+}
+
+#form-error {
+   color: red;
+   margin-top: 1rem;
+   font-size: smaller;
+   display: none;
+}
+
+#form-error.visible {
+   display: block;
+}
 
 @media screen and (min-width: 720px) {
 

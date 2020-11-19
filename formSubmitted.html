@@ -5,8 +5,11 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="styles/header.css">
    <link rel="stylesheet" href="styles/shared.css">
+   <link rel="stylesheet" href="styles/layout.css">
    <title>Document</title>
+   <script src="js/formSubmitted.js"></script>
 </head>
+
 <body>
       <header class="header content">
       <nav id="nav">
@@ -21,8 +24,9 @@
       </nav>
    </header>
    <main>
-      <section>
-         <h3>Thank you for submitting your form!</h3>
+      <section class="content">
+         <h3>Thank you for submitting your form, <span id="name"></span>!</h3>
+         <p>We will send you a confirmation of your booking to <span id="email"></span> or text you on <span id="mobile"></span></p>
       </section>
    </main>
 </body>
