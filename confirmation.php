@@ -11,7 +11,7 @@
 </head>
 
 <body>
-   <header class="header content">
+      <header class="header content">
       <nav id="nav">
          <a href="index.html">
          <span class="logo"><img src="images/logo.svg" alt="logo"></span>
@@ -25,8 +25,8 @@
    </header>
    <main>
       <section class="content">
-         <h3>Thank you for submitting your form, <span id="name"></span>!</h3>
-         <p>We will send you a confirmation of your booking to <span id="email"></span> or text you on <span id="mobile"></span></p>
+         <h3>Thank you for submitting your form, <?php echo $_GET["name"]; ?>!</h3>
+         <p>We will send you a confirmation of your booking to <?php echo $_GET["email"]; ?> or text you on <?php echo $_GET["mobile"]; ?></p>
       </section>
    </main>
 </body>

@@ -12,7 +12,9 @@
    <link rel="stylesheet" href="styles/header.css">
    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
       rel="stylesheet">
+   <script src="js/submitForm.js"></script>
    <title>Booking</title>
+   
 </head>
 
 <body>
@@ -35,18 +37,16 @@
       <section class="two-columns-flex ">
          <div>
             <h1>Reservations</h1>
-            
-               <img src="images/undraw_eating.png"  alt="two people eating">
-         
+            <img src="images/undraw_eating.png"  alt="two people eating">
          </div>
          <div>
-            <form action>
+            <form method="get" action="confirmation.php">
                <label for="name">Full Name</label>
-               <input type="text" class="form-control" id="" placeholder="Enter your full name" required>
+               <input type="text" class="form-control" name="name" id="name" placeholder="Enter your full name" required>
                <label for="name">Email Address</label>
-               <input type="email" class="form-control" id="" placeholder="Enter your email address" required>
+               <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email address" required>
                <label for="name">Phone Number</label>
-               <input type="tel" class="form-control" id="" placeholder="Enter your mobile number" required>
+               <input type="tel" class="form-control" name="mobile" id="mobile" placeholder="Enter your mobile number" required>
                <label for="Size of party">Size of party</label>
                <select name="size" class="form-control" required>
                   <option value="1">1</option>
@@ -60,7 +60,9 @@
                <input type="datetime-local" required>
                <label>Enter your message:</label>
                <textarea name="" rows="10" maxlength="150"></textarea>
-               <input class="btn" type="submit">
+               <div class="submit">
+                  <input id="submit" type="submit" value="Submit">
+               </div>
             </form>
          </div>
       </section>
