@@ -22,12 +22,13 @@ input[type="submit"] {
    display: flex;
    justify-content: center;
 }
+
 input[type="datetime-local"] {
    width: 100%;
    border: none;
    border-bottom: 3px solid var(--border-color);
    font-size: 20px;
-   
+
 }
 
 .submit {

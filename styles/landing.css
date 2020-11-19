@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 720px) {
    #hero .two-columns-flex {
       gap: 0;
@@ -19,17 +18,16 @@
    align-items: flex-start;
    justify-content: flex-start;
    gap: 2rem;
-   position: -webkit-sticky;
    position: initial;
    top: 0;
    background-color: white;
    border-bottom-right-radius: 1rem;
    border-bottom-left-radius: 1rem;
-   box-shadow: 0 15px 12px rgba(34, 34, 34, 0.02); 
+   box-shadow: 0 15px 12px rgba(34, 34, 34, 0.02);
    padding: 2rem 0;
    z-index: 10;
-         width: 80%;
-      margin: 0 auto;
+   width: 80%;
+   margin: 0 auto;
 }
 
 .page-nav a {
@@ -41,10 +39,11 @@
    margin-left: 0;
 }
 
-   #video iframe{
-      display: block;
-      width: 100%;
-   }
+#video iframe {
+   display: block;
+   width: 100%;
+}
+
 iframe {
    width: 100%;
 }
@@ -60,13 +59,12 @@ iframe {
    display: block;
 }
 
-@media screen and (min-width: 720px) {
-
-}
+@media screen and (min-width: 720px) {}
 
 #map-wrapper {
    width: 100%;
 }
+
 @media screen and (min-width: 720px) {
 
    #hero {
@@ -76,7 +74,7 @@ iframe {
    .about-us>div {
       justify-self: center;
    }
-   
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -88,7 +86,7 @@ iframe {
       justify-content: space-around;
    }
 
- 
+
 
 
    #map-wrapper {
@@ -99,13 +97,15 @@ iframe {
 
 @media screen and (min-width: 1280px) {
 
-     .page-nav {
+   .page-nav {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
+      position: -webkit-sticky;
       position: sticky;
       white-space: nowrap;
+      padding: 2rem;
    }
 
    .page-nav .btn {
@@ -113,4 +113,3 @@ iframe {
    }
 
 }
-

@@ -20,7 +20,7 @@
 
 
 @media screen and (min-width: 720px) {
- #nav {
+   #nav {
       display: flex;
       justify-content: space-between;
    }
@@ -42,7 +42,7 @@
 
    #nav a:hover {
       color: rgba(0, 118, 110, 0.523);
-      
+
    }
 
 }
